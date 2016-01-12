@@ -24,12 +24,16 @@ get_header(); ?>
 			<?php
 			/* Start the Loop */
 			while ( have_posts() ) : the_post(); ?>
-			<article class="cf">
+			<article class="cf media">
 				<h2 id="post-<?php the_ID(); ?>"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>">
 <?php the_title(); ?></a></h2>
 				<?php the_time('F jS, Y') ?>
-				<img src="<?php the_field('image'); ?>" class="circleImg" />
-				<?php the_content() ?>
+				<a href="<?php the_permalink() ?>" class="img">
+					<img src="<?php the_field('image'); ?>" class="circleImg" />
+				</a>
+				<div class="bd">
+					<?php the_content() ?>
+				</div>
 			</article>
 
 

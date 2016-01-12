@@ -13,23 +13,28 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 
 		<?php
-		while ( have_posts() ) : the_post();
+		while ( have_posts() ) : the_post(); ?>
 
-			get_template_part( 'template-parts/content', get_post_format() );
+			<article class="cf">
+				<h2 id="post-<?php the_ID(); ?>"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>">
+<?php the_title(); ?></a></h2>
+				<?php the_time('F jS, Y') ?>
+				<img src="<?php the_field('image'); ?>" class="circleImg" />
 
-			the_post_navigation();
+				<div class="bd">
+					<?php the_content() ?>
+					<p><?php the_field('name'); ?> - #<?php the_field('number'); ?></p>
+					<p><strong>Joined ARRG in: </strong><?php the_field('joined'); ?></p>
+					<p><strong>Role: </strong><?php the_field('role'); ?></p>
+				</div>
+			</article>
 
-			// If comments are open or we have at least one comment, load up the comment template.
-			if ( comments_open() || get_comments_number() ) :
-				comments_template();
-			endif;
-
-		endwhile; // End of the loop.
+		<?php endwhile; // End of the loop.
 		?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
 <?php
-get_sidebar();
+//get_sidebar();
 get_footer();
