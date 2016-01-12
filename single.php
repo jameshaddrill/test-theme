@@ -13,23 +13,11 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 
 		<?php
-		while ( have_posts() ) : the_post(); ?>
-
-			<article class="cf">
-				<h2 id="post-<?php the_ID(); ?>"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>">
-<?php the_title(); ?></a></h2>
-				<?php the_time('F jS, Y') ?>
-				<img src="<?php the_field('image'); ?>" class="circleImg" />
-
-				<div class="bd">
-					<?php the_content() ?>
-					<p><?php the_field('name'); ?> - #<?php the_field('number'); ?></p>
-					<p><strong>Joined ARRG in: </strong><?php the_field('joined'); ?></p>
-					<p><strong>Role: </strong><?php the_field('role'); ?></p>
-				</div>
-			</article>
-
-		<?php endwhile; // End of the loop.
+			if ( in_category( array ('3' ) ) ) {
+				include 'single-featured.php';
+			} else {
+				include 'single-general.php';
+			}
 		?>
 
 		</main><!-- #main -->

@@ -7,6 +7,8 @@
  * @package Test_theme
  */
 
+
+
 if ( ! function_exists( 'test_theme_setup' ) ) :
 /**
  * Sets up theme defaults and registers support for various WordPress features.
