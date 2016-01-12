@@ -10,30 +10,32 @@
 get_header(); ?>
 
 	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+		<main id="main" class="site-main listings" role="main">
 
 		<?php
 		if ( have_posts() ) : ?>
 
 			<header class="page-header">
-				<?php
-					the_archive_title( '<h1 class="page-title">', '</h1>' );
-					the_archive_description( '<div class="taxonomy-description">', '</div>' );
-				?>
+				<h1 class="page-title"><?php single_cat_title(); ?></h1>
+
 			</header><!-- .page-header -->
+
 
 			<?php
 			/* Start the Loop */
-			while ( have_posts() ) : the_post();
+			while ( have_posts() ) : the_post(); ?>
+			<article class="cf">
+				<h2 id="post-<?php the_ID(); ?>"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>">
+<?php the_title(); ?></a></h2>
+				<?php the_time('F jS, Y') ?>
+				<img src="<?php the_field('image'); ?>" class="circleImg" />
+				<?php the_content() ?>
+			</article>
 
-				/*
-				 * Include the Post-Format-specific template for the content.
-				 * If you want to override this in a child theme, then include a file
-				 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
-				 */
-				get_template_part( 'template-parts/content', get_post_format() );
 
-			endwhile;
+
+
+			<?php endwhile;
 
 			the_posts_navigation();
 
@@ -42,6 +44,7 @@ get_header(); ?>
 			get_template_part( 'template-parts/content', 'none' );
 
 		endif; ?>
+
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
