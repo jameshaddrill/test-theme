@@ -20,6 +20,9 @@
 			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'test-theme' ), 'test-theme', '<a href="http://underscores.me/" rel="designer">Underscores.me</a>' ); ?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
+
+	<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
