@@ -951,12 +951,18 @@ img {
 	width: 100%;
 }
 
+a {
+	color: #57a75c;
+	text-decoration: none;
+}
+
 /** Columns **/
 .col {
 	-webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     padding: 0 15px;
+    float: left;
 }
 
 @media (min-width: 480px) {
@@ -969,9 +975,11 @@ img {
 }
 
 @media (min-width: 720px) {
-	.md-col-4 {
+	.md-col-3 {
 		width: 25%;
-		float: left;
+	}
+	.md-col-9 {
+		width: 75%;
 	}
 }
 
@@ -989,7 +997,68 @@ img {
 	margin-right: auto;
 }
 
+#searchform {
+	float: right;
+	padding-top: 48px;
+}
+
+	#searchform #searchText {
+		width: 190px;
+		height: 30px;
+		border-radius: 15px;
+		padding-left: 35px;
+		background: url(img/general/searchIcon.png) 12px center no-repeat;
+		font-size: 0.8em;
+	}
+
+	#searchform #searchsubmit {
+		display: none;
+	}
+
+.socialLinks {
+	display: none;
+}
+
+.socialLinks ul {
+	list-style: none;
+	float: right;
+	padding: 45px 20px 0 0;
+}
+	.socialLinks li {
+		text-indent: -99999px;
+		float: left;
+		width: 35px;
+		height: 36px;
+		margin-left: 12px;
+		font-family: bebas_neuebold;
+		list-style: none;
+	}
+
+	.socialLinks li.forum {
+		text-indent: 0px;
+		line-height: 36px;
+
+	}
+
+
+
+	.socialLinks li.facebook {
+		background: url(img/logos/facebook.png) 0 0 no-repeat;
+	}
+
+	.socialLinks li.instagram {
+		background: url(img/logos/instagram.png) 0 0 no-repeat;
+	}
+
+	.socialLinks li.twitter {
+		background: url(img/logos/twitter.png) 0 0 no-repeat;
+	}
+
 @media (min-width: 480px) {
+	.socialLinks {
+		display: block;
+	}
+
 	#siteLogo img {
 		width: 100%;
 		max-width: 175px;

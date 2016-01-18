@@ -44,6 +44,24 @@
 			<?php
 			endif; ?>
 		</div><!-- .site-branding -->
+
+		<div class="socialLinks col md-col-9">
+			<form method="get" id="searchform" action="<?php bloginfo('home'); ?>/">
+				<div>
+					<input type="text" id="searchText" size="18" value="<?php echo wp_specialchars($s, 1); ?>" name="s" id="s" />
+					<input type="submit" id="searchsubmit" value="Search" class="btn" />
+				</div>
+			</form>
+
+			<ul>
+				<li class="forum"><a href="#">Forum</a></li>
+				<li class="facebook"><a href="#">Facebook</a></li>
+				<li class="instagram"><a href="#">Instagram</a></li>
+				<li class="twitter"><a href="#">Twitter</a></li>
+			</ul>
+
+
+		</div>
 	</header><!-- #masthead -->
 
 	<div id="mainNavCont" class="cf">
