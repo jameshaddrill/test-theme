@@ -594,7 +594,7 @@ a:active {
 }
 
 .main-navigation ul ul a {
-	width: 200px;
+	width: auto;
 }
 
 .main-navigation ul ul li {
@@ -635,7 +635,7 @@ a:active {
 	display: block;
 }
 
-@media screen and (min-width: 37.5em) {
+@media screen and (min-width: 659px) {
 	.menu-toggle {
 		display: none;
 	}
@@ -947,6 +947,10 @@ object {
 	margin: 0 auto;
 }
 
+img {
+	width: 100%;
+}
+
 /** Columns **/
 .col {
 	-webkit-box-sizing: border-box;
@@ -955,7 +959,14 @@ object {
     padding: 0 15px;
 }
 
-
+@media (min-width: 480px) {
+	.sm-col-2 {
+		width: 16.6667%;
+	}
+	.sm-col-3 {
+		width: 25%;
+	}
+}
 
 @media (min-width: 720px) {
 	.md-col-4 {
@@ -968,6 +979,93 @@ object {
 .circleImg {
 	border-radius: 50%;
 }
+
+/** Header **/
+#siteLogo {
+	display: block;
+	margin: 20px 0 25px;
+	max-width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media (min-width: 480px) {
+	#siteLogo img {
+		width: 100%;
+		max-width: 175px;
+	}
+}
+
+/** Main nav **/
+
+#mainNavCont {
+	background-color: #ebebec;
+}
+
+@media (min-width: 660px) {
+	#site-navigation {
+		font-family: bebas_neuebold;
+		font-size: 1.125em;
+		background-color: #ebebec;
+		padding: 0 30px;
+		text-align: center;
+		max-width: 1024px;
+		margin: 0 auto;
+		float: none;
+	}
+
+		#site-navigation a {
+			color: #000;
+		}
+
+		#site-navigation #primary-menu {
+			/*display: flex;
+			justify-content: space-between;*/
+		}
+
+			#site-navigation #primary-menu > li {
+				margin: auto;  /* Magic! */
+				border-left: 1px solid #fff;
+				min-width: 120px;
+			}
+
+			#site-navigation #primary-menu > li:last-child {
+				border-right: 1px solid #fff;
+			}
+
+		#site-navigation .sub-menu {
+			background-color: rgba(255, 255, 255, 0.8);
+			padding: 0 10px;
+			text-align: left;
+			min-width: 120px;
+		}
+			#site-navigation .sub-menu > li {
+				padding: 10px 0;
+				clear: both;
+			}
+			#site-navigation .sub-menu .menu-item-has-children {
+				background: url(img/general/rightArrow.png) right center no-repeat;
+				padding-right: 30px;
+			}
+
+			#site-navigation .sub-menu .sub-menu {
+				background-color: transparent;
+				box-shadow: none;
+			}
+
+				#site-navigation .sub-menu .sub-menu li {
+					background-color: rgba(255, 255, 255, 0.8);
+					margin: 0 15px;
+					padding: 10px;
+					min-width: 120px;
+				}
+
+		#site-navigation .current-menu-item a,
+		#site-navigation .current-page-ancestor > a {
+			color: #57a75c;
+		}
+}
+
 
 /** Listings pages **/
 
