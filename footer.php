@@ -22,6 +22,7 @@
 	</footer><!-- #colophon -->
 
 	<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/js/main.js"></script>
 
 </div><!-- #page -->
 

@@ -972,6 +972,9 @@ a {
 	.sm-col-3 {
 		width: 25%;
 	}
+	.sm-col-6 {
+		width: 50%;
+	}
 }
 
 @media (min-width: 720px) {
@@ -998,9 +1001,65 @@ a {
 }
 
 #searchform {
-	float: right;
-	padding-top: 48px;
+	display: none;
 }
+
+.socialLinks {
+	display: none;
+}
+
+.socialLinks ul {
+	list-style: none;
+	float: right;
+	padding: 25px 20px 0 0;
+}
+	.socialLinks li {
+		text-indent: -99999px;
+		float: left;
+		width: 36px;
+		height: 36px;
+		margin-left: 12px;
+		font-family: bebas_neuebold;
+		list-style: none;
+		background-size: 36px 36px;
+		background-position: 0 0;
+		background-repeat: no-repeat;
+	}
+
+	.socialLinks li.forum {
+		text-indent: 0px;
+		line-height: 36px;
+		width: auto;
+	}
+
+	.socialLinks li.facebook {
+		background-image: url(img/logos/facebook.png)
+	}
+
+	.socialLinks li.instagram {
+		background-image: url(img/logos/instagram.png);
+	}
+
+	.socialLinks li.twitter {
+		background-image: url(img/logos/twitter.png);
+	}
+
+@media (min-width: 480px) {
+	.socialLinks {
+		display: block;
+		float: right;
+	}
+
+	#siteLogo img {
+		width: 100%;
+		max-width: 175px;
+	}
+
+	#searchform {
+		float: right;
+		padding-top: 28px;
+
+	}
 
 	#searchform #searchText {
 		width: 190px;
@@ -1014,54 +1073,21 @@ a {
 	#searchform #searchsubmit {
 		display: none;
 	}
-
-.socialLinks {
-	display: none;
 }
 
-.socialLinks ul {
-	list-style: none;
-	float: right;
-	padding: 45px 20px 0 0;
+@media (min-width: 660px) {
+
+	#searchform {
+		display:  block;
+	}
 }
-	.socialLinks li {
-		text-indent: -99999px;
-		float: left;
-		width: 35px;
-		height: 36px;
-		margin-left: 12px;
-		font-family: bebas_neuebold;
-		list-style: none;
+
+@media (min-width: 960px) {
+	.socialLinks ul {
+		padding: 45px 20px 0 0;
 	}
-
-	.socialLinks li.forum {
-		text-indent: 0px;
-		line-height: 36px;
-
-	}
-
-
-
-	.socialLinks li.facebook {
-		background: url(img/logos/facebook.png) 0 0 no-repeat;
-	}
-
-	.socialLinks li.instagram {
-		background: url(img/logos/instagram.png) 0 0 no-repeat;
-	}
-
-	.socialLinks li.twitter {
-		background: url(img/logos/twitter.png) 0 0 no-repeat;
-	}
-
-@media (min-width: 480px) {
-	.socialLinks {
-		display: block;
-	}
-
-	#siteLogo img {
-		width: 100%;
-		max-width: 175px;
+	#searchform {
+		padding-top: 48px;
 	}
 }
 
@@ -1071,12 +1097,47 @@ a {
 	background-color: #ebebec;
 }
 
+
+/* not pretty but this stops it clashing with the built-in menu styles */
+@media(max-width: 659px) {
+	#site-navigation {
+		width: 100%;
+		font-family: bebas_neuebold;
+		font-size: 1.125em;
+		background-color: #ebebec;
+	}
+
+	#site-navigation #primary-menu > li {
+		width: 100%;
+		float: none;
+		margin-bottom: 10px;
+	}
+
+	#site-navigation #primary-menu > li:hover .sub-menu {
+		display: none;
+	}
+
+	#site-navigation #primary-menu .sub-menu {
+		position: relative;
+		top: 0;
+		left: 0;
+		position: relative;
+		margin-left: 15px;
+		float: none;
+		display: none;
+	}
+
+	#site-navigation #primary-menu .sub-menu li {
+		width: 100%;
+	}
+}
+
 @media (min-width: 660px) {
 	#site-navigation {
 		font-family: bebas_neuebold;
 		font-size: 1.125em;
 		background-color: #ebebec;
-		padding: 0 30px;
+		padding: 0 15px;
 		text-align: center;
 		max-width: 1024px;
 		margin: 0 auto;
@@ -1095,23 +1156,36 @@ a {
 			#site-navigation #primary-menu > li {
 				margin: auto;  /* Magic! */
 				border-left: 1px solid #fff;
-				min-width: 120px;
+				padding-left: 10px;
+				padding-right: 10px;
+				width: auto;
+				float: left;
+				margin: 0;
 			}
 
 			#site-navigation #primary-menu > li:last-child {
 				border-right: 1px solid #fff;
 			}
 
+			#site-navigation #primary-menu > li:hover .sub-menu {
+				display: block;
+			}
+
 		#site-navigation .sub-menu {
 			background-color: rgba(255, 255, 255, 0.8);
 			padding: 0 10px;
 			text-align: left;
-			min-width: 120px;
+			min-width: 150px;
 		}
 			#site-navigation .sub-menu > li {
 				padding: 10px 0;
 				clear: both;
 			}
+
+			#site-navigation .sub-menu > li a {
+				min-width: 150px;
+			}
+
 			#site-navigation .sub-menu .menu-item-has-children {
 				background: url(img/general/rightArrow.png) right center no-repeat;
 				padding-right: 30px;
@@ -1133,6 +1207,16 @@ a {
 		#site-navigation .current-page-ancestor > a {
 			color: #57a75c;
 		}
+}
+
+@media (min-width: 920px) {
+	#site-navigation {
+		padding: 0 15px;
+	}
+
+	#site-navigation #primary-menu > li {
+		min-width: 110px;
+	}
 }
 
 

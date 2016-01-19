@@ -79,16 +79,7 @@
 		}
 	}
 
-
-	$('#primary-menu > li').each(function() {
-		console.log($(this));
-		if ($(this).find('.sub-menu').length > 0 && !$(this).hasClass('menu-item-home')) {
-			console.log('hi');
-			$(this).children('a').addClass('noLink');
-		}
-	});
-
-	$('.noLink').click( function() {
+	$('#primary-menu > li').click( function() {
 		return false;
 	});
 
