@@ -20,7 +20,6 @@ var mobileNavInit = function() {
 		$('#primary-menu .menu-item-has-children > a').on('click', function() {
 			$('.sub-menu').hide();
 			$(this).parent('.menu-item-has-children').find('.sub-menu').toggle();
-			console.log('test');
 			return false;
 		});
 	}

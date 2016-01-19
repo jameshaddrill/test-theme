@@ -79,8 +79,11 @@
 		}
 	}
 
-	$('#primary-menu > li').click( function() {
-		return false;
+	$('#primary-menu > li a').click( function(e) {
+		if ($(this).parent().hasClass('menu-item-has-children')) {
+			return false;
+		}
+		e.stopPropagation();
 	});
 
 } )();

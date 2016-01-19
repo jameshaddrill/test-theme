@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/4.4.1" created="2016-01-19 12:15" -->
+<!-- generator="WordPress/4.4.1" created="2016-01-19 17:06" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>ARRG</title>
 	<link>http://localhost:8080/wordpress</link>
 	<description></description>
-	<pubDate>Tue, 19 Jan 2016 12:15:38 +0000</pubDate>
+	<pubDate>Tue, 19 Jan 2016 17:06:14 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://localhost:8080/wordpress</wp:base_site_url>
@@ -37,6 +37,7 @@
 
 	<wp:author><wp:author_id>1</wp:author_id><wp:author_login><![CDATA[James]]></wp:author_login><wp:author_email><![CDATA[jameshaddrill@gmail.com]]></wp:author_email><wp:author_display_name><![CDATA[James]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
 
+	<wp:category><wp:term_id>5</wp:term_id><wp:category_nicename><![CDATA[featured-official]]></wp:category_nicename><wp:category_parent><![CDATA[]]></wp:category_parent><wp:cat_name><![CDATA[Featured official]]></wp:cat_name></wp:category>
 	<wp:category><wp:term_id>3</wp:term_id><wp:category_nicename><![CDATA[featured-skater]]></wp:category_nicename><wp:category_parent><![CDATA[]]></wp:category_parent><wp:cat_name><![CDATA[Featured skater]]></wp:cat_name></wp:category>
 	<wp:category><wp:term_id>2</wp:term_id><wp:category_nicename><![CDATA[profile]]></wp:category_nicename><wp:category_parent><![CDATA[]]></wp:category_parent><wp:cat_name><![CDATA[Profile]]></wp:cat_name></wp:category>
 	<wp:category><wp:term_id>1</wp:term_id><wp:category_nicename><![CDATA[uncategorized]]></wp:category_nicename><wp:category_parent><![CDATA[]]></wp:category_parent><wp:cat_name><![CDATA[Uncategorized]]></wp:cat_name></wp:category>
@@ -182,7 +183,7 @@
 	</item>
 	<item>
 		<title>DVC</title>
-		<link>http://localhost:8080/wordpress/featured-skater-dita-von-cheese/dvc/</link>
+		<link>http://localhost:8080/wordpress/featured-skater/featured-skater-dita-von-cheese/attachment/dvc/</link>
 		<pubDate>Tue, 12 Jan 2016 12:15:06 +0000</pubDate>
 		<dc:creator><![CDATA[James]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8080/wordpress/wp-content/uploads/2016/01/DVC.jpg</guid>
@@ -212,39 +213,8 @@
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>bayeux-realise</title>
-		<link>http://localhost:8080/wordpress/test-featured-skater/bayeux-realise/</link>
-		<pubDate>Tue, 12 Jan 2016 14:00:00 +0000</pubDate>
-		<dc:creator><![CDATA[James]]></dc:creator>
-		<guid isPermaLink="false">http://localhost:8080/wordpress/wp-content/uploads/2016/01/bayeux-realise.jpg</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>18</wp:post_id>
-		<wp:post_date><![CDATA[2016-01-12 14:00:00]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2016-01-12 14:00:00]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[bayeux-realise]]></wp:post_name>
-		<wp:status><![CDATA[inherit]]></wp:status>
-		<wp:post_parent>16</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[attachment]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://localhost:8080/wordpress/wp-content/uploads/2016/01/bayeux-realise.jpg]]></wp:attachment_url>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-			<wp:meta_value><![CDATA[2016/01/bayeux-realise.jpg]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:685;s:6:"height";i:600;s:4:"file";s:26:"2016/01/bayeux-realise.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:26:"bayeux-realise-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:26:"bayeux-realise-300x263.jpg";s:5:"width";i:300;s:6:"height";i:263;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";s:11:"orientation";i:0;s:8:"keywords";a:0:{}}}]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
 		<title>Home</title>
-		<link>http://localhost:8080/wordpress/home/</link>
+		<link>http://localhost:8080/wordpress/uncategorized/home/</link>
 		<pubDate>Tue, 12 Jan 2016 16:58:38 +0000</pubDate>
 		<dc:creator><![CDATA[James]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8080/wordpress/?p=25</guid>
@@ -357,7 +327,7 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://localhost:8080/wordpress/58/</link>
+		<link>http://localhost:8080/wordpress/uncategorized/58/</link>
 		<pubDate>Wed, 13 Jan 2016 15:18:57 +0000</pubDate>
 		<dc:creator><![CDATA[James]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8080/wordpress/?p=58</guid>
@@ -412,7 +382,7 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://localhost:8080/wordpress/59/</link>
+		<link>http://localhost:8080/wordpress/uncategorized/59/</link>
 		<pubDate>Wed, 13 Jan 2016 15:18:57 +0000</pubDate>
 		<dc:creator><![CDATA[James]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8080/wordpress/?p=59</guid>
@@ -467,7 +437,7 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://localhost:8080/wordpress/60/</link>
+		<link>http://localhost:8080/wordpress/uncategorized/60/</link>
 		<pubDate>Wed, 13 Jan 2016 15:18:57 +0000</pubDate>
 		<dc:creator><![CDATA[James]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8080/wordpress/?p=60</guid>
@@ -522,7 +492,7 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://localhost:8080/wordpress/61/</link>
+		<link>http://localhost:8080/wordpress/uncategorized/61/</link>
 		<pubDate>Wed, 13 Jan 2016 15:18:57 +0000</pubDate>
 		<dc:creator><![CDATA[James]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8080/wordpress/?p=61</guid>
@@ -577,7 +547,7 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://localhost:8080/wordpress/62/</link>
+		<link>http://localhost:8080/wordpress/uncategorized/62/</link>
 		<pubDate>Wed, 13 Jan 2016 15:18:57 +0000</pubDate>
 		<dc:creator><![CDATA[James]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8080/wordpress/?p=62</guid>
@@ -632,7 +602,7 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://localhost:8080/wordpress/63/</link>
+		<link>http://localhost:8080/wordpress/uncategorized/63/</link>
 		<pubDate>Wed, 13 Jan 2016 15:18:57 +0000</pubDate>
 		<dc:creator><![CDATA[James]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8080/wordpress/?p=63</guid>
@@ -687,7 +657,7 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://localhost:8080/wordpress/64/</link>
+		<link>http://localhost:8080/wordpress/uncategorized/64/</link>
 		<pubDate>Wed, 13 Jan 2016 15:18:57 +0000</pubDate>
 		<dc:creator><![CDATA[James]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8080/wordpress/?p=64</guid>
@@ -742,7 +712,7 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://localhost:8080/wordpress/65/</link>
+		<link>http://localhost:8080/wordpress/uncategorized/65/</link>
 		<pubDate>Wed, 13 Jan 2016 15:18:57 +0000</pubDate>
 		<dc:creator><![CDATA[James]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8080/wordpress/?p=65</guid>
@@ -797,7 +767,7 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://localhost:8080/wordpress/66/</link>
+		<link>http://localhost:8080/wordpress/uncategorized/66/</link>
 		<pubDate>Wed, 13 Jan 2016 15:18:57 +0000</pubDate>
 		<dc:creator><![CDATA[James]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8080/wordpress/?p=66</guid>
@@ -852,7 +822,7 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://localhost:8080/wordpress/67/</link>
+		<link>http://localhost:8080/wordpress/uncategorized/67/</link>
 		<pubDate>Wed, 13 Jan 2016 15:18:57 +0000</pubDate>
 		<dc:creator><![CDATA[James]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8080/wordpress/?p=67</guid>
@@ -907,7 +877,7 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://localhost:8080/wordpress/68/</link>
+		<link>http://localhost:8080/wordpress/uncategorized/68/</link>
 		<pubDate>Wed, 13 Jan 2016 15:18:57 +0000</pubDate>
 		<dc:creator><![CDATA[James]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8080/wordpress/?p=68</guid>
@@ -961,8 +931,170 @@
 		</wp:postmeta>
 	</item>
 	<item>
+		<title>Home page</title>
+		<link>http://localhost:8080/wordpress/?acf=acf_home-page</link>
+		<pubDate>Mon, 18 Jan 2016 15:56:30 +0000</pubDate>
+		<dc:creator><![CDATA[James]]></dc:creator>
+		<guid isPermaLink="false">http://localhost:8080/wordpress/?post_type=acf&#038;p=78</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>78</wp:post_id>
+		<wp:post_date><![CDATA[2016-01-18 15:56:30]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2016-01-18 15:56:30]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[acf_home-page]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[acf]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[field_569d0b02d93a0]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:11:{s:3:"key";s:19:"field_569d0b02d93a0";s:5:"label";s:10:"Main image";s:4:"name";s:10:"main_image";s:4:"type";s:5:"image";s:12:"instructions";s:0:"";s:8:"required";s:1:"0";s:11:"save_format";s:6:"object";s:12:"preview_size";s:9:"thumbnail";s:7:"library";s:3:"all";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[position]]></wp:meta_key>
+			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[layout]]></wp:meta_key>
+			<wp:meta_value><![CDATA[no_box]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[hide_on_screen]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rule]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:4:"page";s:8:"operator";s:2:"==";s:5:"value";s:2:"14";s:8:"order_no";i:0;s:8:"group_no";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>homeHero</title>
+		<link>http://localhost:8080/wordpress/home-page/attachment/homehero/</link>
+		<pubDate>Mon, 18 Jan 2016 15:57:36 +0000</pubDate>
+		<dc:creator><![CDATA[James]]></dc:creator>
+		<guid isPermaLink="false">http://localhost:8080/wordpress/wp-content/uploads/2016/01/homeHero.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>79</wp:post_id>
+		<wp:post_date><![CDATA[2016-01-18 15:57:36]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2016-01-18 15:57:36]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[homehero]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>14</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[http://localhost:8080/wordpress/wp-content/uploads/2016/01/homeHero.jpg]]></wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2016/01/homeHero.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1024;s:6:"height";i:389;s:4:"file";s:20:"2016/01/homeHero.jpg";s:5:"sizes";a:4:{s:9:"thumbnail";a:4:{s:4:"file";s:20:"homeHero-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:20:"homeHero-300x114.jpg";s:5:"width";i:300;s:6:"height";i:114;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:20:"homeHero-768x292.jpg";s:5:"width";i:768;s:6:"height";i:292;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:21:"homeHero-1024x389.jpg";s:5:"width";i:1024;s:6:"height";i:389;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";s:11:"orientation";i:0;s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
+			<wp:meta_value><![CDATA[All Star Reserves vs Dresden Pioneers]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>headshot</title>
+		<link>http://localhost:8080/wordpress/featured-skater/test-featured-skater/attachment/headshot/</link>
+		<pubDate>Tue, 19 Jan 2016 16:38:45 +0000</pubDate>
+		<dc:creator><![CDATA[James]]></dc:creator>
+		<guid isPermaLink="false">http://localhost:8080/wordpress/wp-content/uploads/2016/01/headshot.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>155</wp:post_id>
+		<wp:post_date><![CDATA[2016-01-19 16:38:45]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2016-01-19 16:38:45]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[headshot]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>16</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url><![CDATA[http://localhost:8080/wordpress/wp-content/uploads/2016/01/headshot.jpg]]></wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+			<wp:meta_value><![CDATA[2016/01/headshot.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:300;s:6:"height";i:300;s:4:"file";s:20:"2016/01/headshot.jpg";s:5:"sizes";a:1:{s:9:"thumbnail";a:4:{s:4:"file";s:20:"headshot-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";s:11:"orientation";i:0;s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Featured official</title>
+		<link>http://localhost:8080/wordpress/?acf=acf_featured-official</link>
+		<pubDate>Tue, 19 Jan 2016 16:44:56 +0000</pubDate>
+		<dc:creator><![CDATA[James]]></dc:creator>
+		<guid isPermaLink="false">http://localhost:8080/wordpress/?post_type=acf&#038;p=160</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>160</wp:post_id>
+		<wp:post_date><![CDATA[2016-01-19 16:44:56]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2016-01-19 16:44:56]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[acf_featured-official]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[acf]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[field_569e679051950]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_569e679051950";s:5:"label";s:4:"Name";s:4:"name";s:4:"name";s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";s:1:"1";s:13:"default_value";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";s:10:"formatting";s:4:"html";s:9:"maxlength";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[field_569e67e651951]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:11:{s:3:"key";s:19:"field_569e67e651951";s:5:"label";s:5:"Image";s:4:"name";s:5:"image";s:4:"type";s:5:"image";s:12:"instructions";s:0:"";s:8:"required";s:1:"1";s:11:"save_format";s:3:"url";s:12:"preview_size";s:9:"thumbnail";s:7:"library";s:3:"all";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:1;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[rule]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"post_category";s:8:"operator";s:2:"==";s:5:"value";s:1:"5";s:8:"order_no";i:0;s:8:"group_no";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[position]]></wp:meta_key>
+			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[layout]]></wp:meta_key>
+			<wp:meta_value><![CDATA[no_box]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[hide_on_screen]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
 		<title></title>
-		<link>http://localhost:8080/wordpress/73/</link>
+		<link>http://localhost:8080/wordpress/uncategorized/73/</link>
 		<pubDate>Wed, 13 Jan 2016 15:20:50 +0000</pubDate>
 		<dc:creator><![CDATA[James]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8080/wordpress/?p=73</guid>
@@ -1016,97 +1148,8 @@
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>Home page</title>
-		<link>http://localhost:8080/wordpress/?acf=acf_home-page</link>
-		<pubDate>Mon, 18 Jan 2016 15:56:30 +0000</pubDate>
-		<dc:creator><![CDATA[James]]></dc:creator>
-		<guid isPermaLink="false">http://localhost:8080/wordpress/?post_type=acf&#038;p=78</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>78</wp:post_id>
-		<wp:post_date><![CDATA[2016-01-18 15:56:30]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2016-01-18 15:56:30]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[acf_home-page]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[acf]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[field_569d0b02d93a0]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:11:{s:3:"key";s:19:"field_569d0b02d93a0";s:5:"label";s:10:"Main image";s:4:"name";s:10:"main_image";s:4:"type";s:5:"image";s:12:"instructions";s:0:"";s:8:"required";s:1:"0";s:11:"save_format";s:6:"object";s:12:"preview_size";s:9:"thumbnail";s:7:"library";s:3:"all";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:0;}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[field_569d0b28d93a1]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_569d0b28d93a1";s:5:"label";s:4:"test";s:4:"name";s:4:"test";s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";s:1:"0";s:13:"default_value";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";s:10:"formatting";s:4:"html";s:9:"maxlength";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:1;}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[position]]></wp:meta_key>
-			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[layout]]></wp:meta_key>
-			<wp:meta_value><![CDATA[no_box]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[hide_on_screen]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[field_569d0c9d65a65]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_569d0c9d65a65";s:5:"label";s:0:"";s:4:"name";s:0:"";s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";s:1:"0";s:13:"default_value";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";s:10:"formatting";s:4:"html";s:9:"maxlength";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:2;}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[rule]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:4:"page";s:8:"operator";s:2:"==";s:5:"value";s:2:"14";s:8:"order_no";i:0;s:8:"group_no";i:0;}]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>homeHero</title>
-		<link>http://localhost:8080/wordpress/home-page/homehero/</link>
-		<pubDate>Mon, 18 Jan 2016 15:57:36 +0000</pubDate>
-		<dc:creator><![CDATA[James]]></dc:creator>
-		<guid isPermaLink="false">http://localhost:8080/wordpress/wp-content/uploads/2016/01/homeHero.jpg</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>79</wp:post_id>
-		<wp:post_date><![CDATA[2016-01-18 15:57:36]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2016-01-18 15:57:36]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[homehero]]></wp:post_name>
-		<wp:status><![CDATA[inherit]]></wp:status>
-		<wp:post_parent>14</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[attachment]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url><![CDATA[http://localhost:8080/wordpress/wp-content/uploads/2016/01/homeHero.jpg]]></wp:attachment_url>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-			<wp:meta_value><![CDATA[2016/01/homeHero.jpg]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1024;s:6:"height";i:389;s:4:"file";s:20:"2016/01/homeHero.jpg";s:5:"sizes";a:4:{s:9:"thumbnail";a:4:{s:4:"file";s:20:"homeHero-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:20:"homeHero-300x114.jpg";s:5:"width";i:300;s:6:"height";i:114;s:9:"mime-type";s:10:"image/jpeg";}s:12:"medium_large";a:4:{s:4:"file";s:20:"homeHero-768x292.jpg";s:5:"width";i:768;s:6:"height";i:292;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:21:"homeHero-1024x389.jpg";s:5:"width";i:1024;s:6:"height";i:389;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:12:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";s:11:"orientation";i:0;s:8:"keywords";a:0:{}}}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
-			<wp:meta_value><![CDATA[All Star Reserves vs Dresden Pioneers]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
 		<title></title>
-		<link>http://localhost:8080/wordpress/74/</link>
+		<link>http://localhost:8080/wordpress/uncategorized/74/</link>
 		<pubDate>Wed, 13 Jan 2016 15:20:50 +0000</pubDate>
 		<dc:creator><![CDATA[James]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8080/wordpress/?p=74</guid>
@@ -1161,7 +1204,7 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://localhost:8080/wordpress/76/</link>
+		<link>http://localhost:8080/wordpress/uncategorized/76/</link>
 		<pubDate>Wed, 13 Jan 2016 16:06:16 +0000</pubDate>
 		<dc:creator><![CDATA[James]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8080/wordpress/76/</guid>
@@ -1216,7 +1259,7 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://localhost:8080/wordpress/92/</link>
+		<link>http://localhost:8080/wordpress/uncategorized/92/</link>
 		<pubDate>Tue, 19 Jan 2016 09:48:44 +0000</pubDate>
 		<dc:creator><![CDATA[James]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8080/wordpress/92/</guid>
@@ -1271,7 +1314,7 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://localhost:8080/wordpress/111/</link>
+		<link>http://localhost:8080/wordpress/uncategorized/111/</link>
 		<pubDate>Tue, 19 Jan 2016 09:50:51 +0000</pubDate>
 		<dc:creator><![CDATA[James]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8080/wordpress/111/</guid>
@@ -1326,7 +1369,7 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://localhost:8080/wordpress/118/</link>
+		<link>http://localhost:8080/wordpress/uncategorized/118/</link>
 		<pubDate>Tue, 19 Jan 2016 09:51:25 +0000</pubDate>
 		<dc:creator><![CDATA[James]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8080/wordpress/118/</guid>
@@ -1381,7 +1424,7 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://localhost:8080/wordpress/132/</link>
+		<link>http://localhost:8080/wordpress/uncategorized/132/</link>
 		<pubDate>Tue, 19 Jan 2016 09:52:44 +0000</pubDate>
 		<dc:creator><![CDATA[James]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8080/wordpress/132/</guid>
@@ -1436,7 +1479,7 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://localhost:8080/wordpress/135/</link>
+		<link>http://localhost:8080/wordpress/uncategorized/135/</link>
 		<pubDate>Tue, 19 Jan 2016 09:56:27 +0000</pubDate>
 		<dc:creator><![CDATA[James]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8080/wordpress/?p=135</guid>
@@ -1491,7 +1534,7 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://localhost:8080/wordpress/136/</link>
+		<link>http://localhost:8080/wordpress/uncategorized/136/</link>
 		<pubDate>Tue, 19 Jan 2016 09:56:27 +0000</pubDate>
 		<dc:creator><![CDATA[James]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8080/wordpress/?p=136</guid>
@@ -1546,7 +1589,7 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://localhost:8080/wordpress/137/</link>
+		<link>http://localhost:8080/wordpress/uncategorized/137/</link>
 		<pubDate>Tue, 19 Jan 2016 09:56:27 +0000</pubDate>
 		<dc:creator><![CDATA[James]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8080/wordpress/?p=137</guid>
@@ -1601,7 +1644,7 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://localhost:8080/wordpress/138/</link>
+		<link>http://localhost:8080/wordpress/uncategorized/138/</link>
 		<pubDate>Tue, 19 Jan 2016 09:56:27 +0000</pubDate>
 		<dc:creator><![CDATA[James]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8080/wordpress/?p=138</guid>
@@ -1656,7 +1699,7 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://localhost:8080/wordpress/139/</link>
+		<link>http://localhost:8080/wordpress/uncategorized/139/</link>
 		<pubDate>Tue, 19 Jan 2016 09:56:27 +0000</pubDate>
 		<dc:creator><![CDATA[James]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8080/wordpress/?p=139</guid>
@@ -1711,7 +1754,7 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://localhost:8080/wordpress/140/</link>
+		<link>http://localhost:8080/wordpress/uncategorized/140/</link>
 		<pubDate>Tue, 19 Jan 2016 09:56:27 +0000</pubDate>
 		<dc:creator><![CDATA[James]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8080/wordpress/?p=140</guid>
@@ -1766,7 +1809,7 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://localhost:8080/wordpress/141/</link>
+		<link>http://localhost:8080/wordpress/uncategorized/141/</link>
 		<pubDate>Tue, 19 Jan 2016 09:56:27 +0000</pubDate>
 		<dc:creator><![CDATA[James]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8080/wordpress/?p=141</guid>
@@ -1821,7 +1864,7 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://localhost:8080/wordpress/142/</link>
+		<link>http://localhost:8080/wordpress/uncategorized/142/</link>
 		<pubDate>Tue, 19 Jan 2016 09:56:27 +0000</pubDate>
 		<dc:creator><![CDATA[James]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8080/wordpress/?p=142</guid>
@@ -1876,7 +1919,7 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://localhost:8080/wordpress/143/</link>
+		<link>http://localhost:8080/wordpress/uncategorized/143/</link>
 		<pubDate>Tue, 19 Jan 2016 09:56:27 +0000</pubDate>
 		<dc:creator><![CDATA[James]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8080/wordpress/?p=143</guid>
@@ -1931,7 +1974,7 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://localhost:8080/wordpress/144/</link>
+		<link>http://localhost:8080/wordpress/uncategorized/144/</link>
 		<pubDate>Tue, 19 Jan 2016 09:56:27 +0000</pubDate>
 		<dc:creator><![CDATA[James]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8080/wordpress/?p=144</guid>
@@ -1986,7 +2029,7 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://localhost:8080/wordpress/145/</link>
+		<link>http://localhost:8080/wordpress/uncategorized/145/</link>
 		<pubDate>Tue, 19 Jan 2016 09:56:27 +0000</pubDate>
 		<dc:creator><![CDATA[James]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8080/wordpress/?p=145</guid>
@@ -2041,7 +2084,7 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://localhost:8080/wordpress/146/</link>
+		<link>http://localhost:8080/wordpress/uncategorized/146/</link>
 		<pubDate>Tue, 19 Jan 2016 09:56:28 +0000</pubDate>
 		<dc:creator><![CDATA[James]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8080/wordpress/?p=146</guid>
@@ -2096,7 +2139,7 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://localhost:8080/wordpress/147/</link>
+		<link>http://localhost:8080/wordpress/uncategorized/147/</link>
 		<pubDate>Tue, 19 Jan 2016 09:56:28 +0000</pubDate>
 		<dc:creator><![CDATA[James]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8080/wordpress/?p=147</guid>
@@ -2150,68 +2193,13 @@
 		</wp:postmeta>
 	</item>
 	<item>
-		<title></title>
-		<link>http://localhost:8080/wordpress/148/</link>
-		<pubDate>Tue, 19 Jan 2016 09:56:28 +0000</pubDate>
-		<dc:creator><![CDATA[James]]></dc:creator>
-		<guid isPermaLink="false">http://localhost:8080/wordpress/?p=148</guid>
-		<description></description>
-		<content:encoded><![CDATA[ ]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>148</wp:post_id>
-		<wp:post_date><![CDATA[2016-01-19 09:56:28]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2016-01-19 09:56:28]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[148]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>117</wp:post_parent>
-		<wp:menu_order>31</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="nav_menu" nicename="menu-1"><![CDATA[Menu 1]]></category>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-			<wp:meta_value><![CDATA[118]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-			<wp:meta_value><![CDATA[122]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-			<wp:meta_value><![CDATA[page]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
 		<title>Home</title>
 		<link>http://localhost:8080/wordpress/</link>
 		<pubDate>Tue, 12 Jan 2016 12:19:17 +0000</pubDate>
 		<dc:creator><![CDATA[James]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8080/wordpress/?page_id=14</guid>
 		<description></description>
-		<content:encoded><![CDATA[asdfsdaf]]></content:encoded>
+		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>14</wp:post_id>
 		<wp:post_date><![CDATA[2016-01-12 12:19:17]]></wp:post_date>
@@ -2243,7 +2231,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[test]]></wp:meta_key>
-			<wp:meta_value><![CDATA[test]]></wp:meta_value>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_test]]></wp:meta_key>
@@ -2589,32 +2577,6 @@
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>Support us</title>
-		<link>http://localhost:8080/wordpress/support-us/</link>
-		<pubDate>Wed, 13 Jan 2016 16:06:16 +0000</pubDate>
-		<dc:creator><![CDATA[James]]></dc:creator>
-		<guid isPermaLink="false">http://localhost:8080/wordpress/?page_id=75</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>75</wp:post_id>
-		<wp:post_date><![CDATA[2016-01-13 16:06:16]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2016-01-13 16:06:16]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[support-us]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
 		<title>Training</title>
 		<link>http://localhost:8080/wordpress/?page_id=84</link>
 		<pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
@@ -2642,7 +2604,62 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://localhost:8080/wordpress/149/</link>
+		<link>http://localhost:8080/wordpress/uncategorized/148/</link>
+		<pubDate>Tue, 19 Jan 2016 09:56:28 +0000</pubDate>
+		<dc:creator><![CDATA[James]]></dc:creator>
+		<guid isPermaLink="false">http://localhost:8080/wordpress/?p=148</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>148</wp:post_id>
+		<wp:post_date><![CDATA[2016-01-19 09:56:28]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2016-01-19 09:56:28]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[148]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>117</wp:post_parent>
+		<wp:menu_order>31</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="menu-1"><![CDATA[Menu 1]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+			<wp:meta_value><![CDATA[118]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+			<wp:meta_value><![CDATA[122]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+			<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title></title>
+		<link>http://localhost:8080/wordpress/uncategorized/149/</link>
 		<pubDate>Tue, 19 Jan 2016 09:56:28 +0000</pubDate>
 		<dc:creator><![CDATA[James]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8080/wordpress/?p=149</guid>
@@ -2697,7 +2714,7 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://localhost:8080/wordpress/150/</link>
+		<link>http://localhost:8080/wordpress/uncategorized/150/</link>
 		<pubDate>Tue, 19 Jan 2016 09:56:28 +0000</pubDate>
 		<dc:creator><![CDATA[James]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8080/wordpress/?p=150</guid>
@@ -2752,7 +2769,7 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://localhost:8080/wordpress/151/</link>
+		<link>http://localhost:8080/wordpress/uncategorized/151/</link>
 		<pubDate>Tue, 19 Jan 2016 09:56:28 +0000</pubDate>
 		<dc:creator><![CDATA[James]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8080/wordpress/?p=151</guid>
@@ -2807,7 +2824,7 @@
 	</item>
 	<item>
 		<title></title>
-		<link>http://localhost:8080/wordpress/152/</link>
+		<link>http://localhost:8080/wordpress/uncategorized/152/</link>
 		<pubDate>Tue, 19 Jan 2016 09:56:28 +0000</pubDate>
 		<dc:creator><![CDATA[James]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8080/wordpress/?p=152</guid>
@@ -2858,6 +2875,32 @@
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
 			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Support us</title>
+		<link>http://localhost:8080/wordpress/support-us/</link>
+		<pubDate>Wed, 13 Jan 2016 16:06:16 +0000</pubDate>
+		<dc:creator><![CDATA[James]]></dc:creator>
+		<guid isPermaLink="false">http://localhost:8080/wordpress/?page_id=75</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>75</wp:post_id>
+		<wp:post_date><![CDATA[2016-01-13 16:06:16]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2016-01-13 16:06:16]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[support-us]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -3355,34 +3398,8 @@
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>Current sponsors</title>
-		<link>http://localhost:8080/wordpress/support-us/current-sponsors/</link>
-		<pubDate>Tue, 19 Jan 2016 09:52:37 +0000</pubDate>
-		<dc:creator><![CDATA[James]]></dc:creator>
-		<guid isPermaLink="false">http://localhost:8080/wordpress/?page_id=129</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>129</wp:post_id>
-		<wp:post_date><![CDATA[2016-01-19 09:52:37]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2016-01-19 09:52:37]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[current-sponsors]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>75</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
 		<title>Hello world!</title>
-		<link>http://localhost:8080/wordpress/hello-world/</link>
+		<link>http://localhost:8080/wordpress/uncategorized/hello-world/</link>
 		<pubDate>Tue, 12 Jan 2016 10:24:47 +0000</pubDate>
 		<dc:creator><![CDATA[James]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8080/wordpress/?p=1</guid>
@@ -3462,7 +3479,7 @@ As a new WordPress user, you should go to <a href="http://localhost:8080/wordpre
 	</item>
 	<item>
 		<title>Featured skater - Dita Von Cheese</title>
-		<link>http://localhost:8080/wordpress/featured-skater-dita-von-cheese/</link>
+		<link>http://localhost:8080/wordpress/featured-skater/featured-skater-dita-von-cheese/</link>
 		<pubDate>Tue, 12 Jan 2016 12:15:21 +0000</pubDate>
 		<dc:creator><![CDATA[James]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8080/wordpress/?p=10</guid>
@@ -3561,7 +3578,7 @@ As a new WordPress user, you should go to <a href="http://localhost:8080/wordpre
 	</item>
 	<item>
 		<title>Test featured skater</title>
-		<link>http://localhost:8080/wordpress/test-featured-skater/</link>
+		<link>http://localhost:8080/wordpress/featured-skater/test-featured-skater/</link>
 		<pubDate>Tue, 12 Jan 2016 13:36:15 +0000</pubDate>
 		<dc:creator><![CDATA[James]]></dc:creator>
 		<guid isPermaLink="false">http://localhost:8080/wordpress/?p=16</guid>
@@ -3611,7 +3628,7 @@ As a new WordPress user, you should go to <a href="http://localhost:8080/wordpre
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_role]]></wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
+			<wp:meta_value><![CDATA[field_5694ed1239bd0]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[__role]]></wp:meta_key>
@@ -3651,11 +3668,15 @@ As a new WordPress user, you should go to <a href="http://localhost:8080/wordpre
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[featSkaterImage]]></wp:meta_key>
-			<wp:meta_value><![CDATA[18]]></wp:meta_value>
+			<wp:meta_value><![CDATA[155]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_featSkaterImage]]></wp:meta_key>
 			<wp:meta_value><![CDATA[field_5694edc51f27e]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[role]]></wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -3727,6 +3748,32 @@ As a new WordPress user, you should go to <a href="http://localhost:8080/wordpre
 		</wp:postmeta>
 	</item>
 	<item>
+		<title>Current sponsors</title>
+		<link>http://localhost:8080/wordpress/support-us/current-sponsors/</link>
+		<pubDate>Tue, 19 Jan 2016 09:52:37 +0000</pubDate>
+		<dc:creator><![CDATA[James]]></dc:creator>
+		<guid isPermaLink="false">http://localhost:8080/wordpress/?page_id=129</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>129</wp:post_id>
+		<wp:post_date><![CDATA[2016-01-19 09:52:37]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2016-01-19 09:52:37]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[current-sponsors]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>75</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
 		<title>Links</title>
 		<link>http://localhost:8080/wordpress/links/</link>
 		<pubDate>Tue, 19 Jan 2016 09:52:43 +0000</pubDate>
@@ -3750,6 +3797,53 @@ As a new WordPress user, you should go to <a href="http://localhost:8080/wordpre
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Test Official</title>
+		<link>http://localhost:8080/wordpress/featured-official/test-official/</link>
+		<pubDate>Tue, 19 Jan 2016 16:41:50 +0000</pubDate>
+		<dc:creator><![CDATA[James]]></dc:creator>
+		<guid isPermaLink="false">http://localhost:8080/wordpress/?p=157</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>157</wp:post_id>
+		<wp:post_date><![CDATA[2016-01-19 16:41:50]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2016-01-19 16:41:50]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[test-official]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="featured-official"><![CDATA[Featured official]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_old_slug]]></wp:meta_key>
+			<wp:meta_value><![CDATA[featured-official]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[name]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Test official]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_name]]></wp:meta_key>
+			<wp:meta_value><![CDATA[field_569e679051950]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[image]]></wp:meta_key>
+			<wp:meta_value><![CDATA[155]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_image]]></wp:meta_key>
+			<wp:meta_value><![CDATA[field_569e67e651951]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 </channel>
