@@ -994,8 +994,14 @@ a:visited {
 	.sm-col-3 {
 		width: 25%;
 	}
+	.sm-col-4 {
+		width: 33.3333%;
+	}
 	.sm-col-6 {
 		width: 50%;
+	}
+	.sm-col-8 {
+		width: 66.6667%;
 	}
 	.sm-col-9 {
 		width: 75%;
@@ -1181,6 +1187,10 @@ a:visited {
 }
 
 @media (min-width: 660px) {
+	#topSection {
+		margin-bottom: 30px;
+	}
+
 	#site-navigation {
 		font-family: bebas_neuebold;
 		font-size: 1.125em;
@@ -1322,3 +1332,19 @@ a:visited {
 	.media .img {float:left; margin-right: 10px;}
 	.media .img img{display:block;}
 	.media .imgExt{float:right; margin-left: 10px;}
+
+
+/** Article pages **/
+
+article.article h1 {
+	color: #57a75c;
+	margin-bottom: 5px;
+	line-height: 1em;
+}
+
+article.article .date {
+	font-family: bebas_neuebold;
+	margin: 0;
+	font-size: 18px;
+	color: #7f7f7f;
+}

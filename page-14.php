@@ -25,7 +25,7 @@ get_header(); ?>
 
 				<article class="col col-1 sm-col-6 md-col-3" id="post-<?php the_ID(); ?>" <?php post_class( 'category-listing' ); ?>>
 
-					<img src="<?php the_field('image'); ?>" class="circleImg" />
+					<img src="<?php the_field('thumbnail'); ?>" class="circleImg" />
 
 	                <h3 class="entry-title">
 	                    <a href="<?php the_permalink(); ?>">
@@ -44,7 +44,7 @@ get_header(); ?>
 
 				<article class="col col-1 sm-col-6 md-col-3" id="post-<?php the_ID(); ?>" <?php post_class( 'category-listing' ); ?>>
 
-					<img src="<?php the_field('image'); ?>" class="circleImg" />
+					<img src="<?php the_field('thumbnail'); ?>" class="circleImg" />
 	                <h3 class="entry-title">
 	                    <a href="<?php the_permalink(); ?>">
 	                        Official of the month
@@ -61,7 +61,7 @@ get_header(); ?>
 
 				<article class="col col-1 sm-col-6 md-col-3" id="post-<?php the_ID(); ?>" <?php post_class( 'category-listing' ); ?>>
 
-					<img src="<?php the_field('image'); ?>" class="circleImg" />
+					<img src="<?php the_field('thumbnail'); ?>" class="circleImg" />
 
 	                <h3 class="entry-title">
 	                    <a href="<?php the_permalink(); ?>">
@@ -80,7 +80,7 @@ get_header(); ?>
 
 				<article class="col col-1 sm-col-6 md-col-3" id="post-<?php the_ID(); ?>" <?php post_class( 'category-listing' ); ?>>
 
-					<img src="<?php the_field('image'); ?>" class="circleImg" />
+					<img src="<?php the_field('thumbnail'); ?>" class="circleImg" />
 	                <h3 class="entry-title">
 	                    <a href="<?php the_permalink(); ?>">
 	                        Official of the month
