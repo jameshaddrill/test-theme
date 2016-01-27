@@ -1364,3 +1364,11 @@ article.article .date {
 		max-width: 80%;
 	}
 }
+
+/** Footer **/
+footer {
+	width: 100%;
+	background: #000;
+	padding: 30px 0;
+	color: #fff;
+}
