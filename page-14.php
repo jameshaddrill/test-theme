@@ -92,6 +92,17 @@ get_header(); ?>
 
 			<?php endwhile; endif; ?>
 		</section>
+
+		<section>
+			<?php while ( have_posts() ) : the_post(); ?>
+				<div class"tabs">
+					<h3>
+						<?php the_field('tab_one_header'); ?>						
+					</h3>
+				</div>
+			<?php endwhile; // end of the loop. ?>
+
+		</section>
 </main>
 </div>
 
