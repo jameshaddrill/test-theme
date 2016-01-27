@@ -1,6 +1,6 @@
 <?php
 /**
- * The main template file.
+ * The teams template file.
  *
  * This is the most generic template file in a WordPress theme
  * and one of the two required files for a theme (the other being style.css).
@@ -20,7 +20,7 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 
 			<header class="col">
-				<h1>News</h1>
+				<h1>TEAMS</h1>
 			</header>
 
 			<?php $cat_id = 3; //the certain category ID

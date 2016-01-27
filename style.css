@@ -987,6 +987,10 @@ a:visited {
     width: 100%;
 }
 
+.xs-col-2 {
+	width: 50%;
+}
+
 @media (min-width: 480px) {
 	.sm-col-2 {
 		width: 16.6667%;
@@ -1347,4 +1351,16 @@ article.article .date {
 	margin: 0;
 	font-size: 18px;
 	color: #7f7f7f;
+}
+
+/** Team pages **/
+
+.player {
+	text-align: center;
+}
+
+@media (min-width: 920px) {
+	.player img {
+		max-width: 80%;
+	}
 }
