@@ -980,7 +980,7 @@ a:visited {
 .btn {
 	display: block;
 	background-color: #57a75c;
-	color: #000;
+	color: #fff;
 	cursor: pointer;
 	font-family: bebas_neuebold;
 	font-size: 1.4em;
@@ -1006,6 +1006,13 @@ a:visited {
     width: 100%;
 }
 
+.col .col:first-child {
+	padding-left: 0;
+}
+
+.col .col:last-child {
+	padding-right: 0;
+}
 
 .xs-col-2 {
 	width: 50%;
@@ -1039,8 +1046,26 @@ a:visited {
 }
 
 @media (min-width: 660px) {
+	.md-col-1 {
+		width: 8.3333%;
+	}
+	.md-col-2 {
+		width: 16.6667%;
+	}
 	.md-col-3 {
 		width: 25%;
+	}
+	.md-col-4 {
+		width: 33.3333%;
+	}
+	.md-col-5 {
+		width: 41.6666%;
+	}
+	.md-col-6 {
+		width: 50%;
+	}
+	.md-col-8 {
+		width: 66.6667%;
 	}
 	.md-col-9 {
 		width: 75%;
@@ -1398,7 +1423,7 @@ article.article .date {
 	color: #fff;
 	font-family: bebas_neuebold;
 	text-align: center;
-	padding: 10px;
+	padding: 10px !important;
 }
 
 	.game-listing .date .day {
@@ -1417,7 +1442,7 @@ article.article .date {
 
 .game-listing .gameType p {
 	font-family: bebas_neuebold;
-	font-size: 2em;
+	font-size: 1.5em;
 	line-height: 1em;
 	margin-top: 0;
 }
@@ -1426,10 +1451,43 @@ article.article .date {
 	text-align: center;
 }
 
-.game-listing .team h2 {
+.game-listing .team p {
+	font-family: bebas_neuebold;
+	margin: 0;
 	text-align: center;
-	margin-top: 0;
+	font-size: 1.4em;
 	line-height: 1em;
+}
+
+.game-listing .team p.league {
+	color: #ccc;
+	margin-bottom: 8px;
+}
+
+.past-game-listing {
+	padding: 20px 0;
+	border-bottom: 1px solid black;
+}
+
+.past-game-listing p, .past-game-listing .date {
+	font-size: 0.8em;
+}
+
+.past-game-listing p {
+	margin: 0;
+}
+
+.past-game-listing .homeName {
+	float: right;
+	padding-right:15px;
+}
+
+.past-game-listing .awayName {
+	padding-left:15px;
+}
+
+.past-game-listing .photos a {
+	color: #000;
 }
 
 /** Footer **/
