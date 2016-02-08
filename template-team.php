@@ -2,7 +2,7 @@
 /**
  * Template Name: Team
  */
-get_header();
+//get_header();
 
 $slug = $post->post_name;
 

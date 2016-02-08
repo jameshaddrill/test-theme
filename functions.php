@@ -160,6 +160,14 @@ function player_post_type() {
 }
 add_action( 'init', 'player_post_type', 0 );
 
+/**
+* New excerpt text
+*/
+
+function new_excerpt_more( $more ) {
+	return '... <p><a class="read-more" href="'. get_permalink( get_the_ID() ) . '">' . __('Read More', 'your-text-domain') . '</a></p>';
+}
+add_filter( 'excerpt_more', 'new_excerpt_more' );
 
 /**
  * Register `team` taxonomy
