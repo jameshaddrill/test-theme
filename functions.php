@@ -127,7 +127,7 @@ function test_theme_scripts() {
 	}
 }
 
-/**
+/** JH
  * Register `team` post type
  */
 function player_post_type() {
@@ -160,7 +160,7 @@ function player_post_type() {
 }
 add_action( 'init', 'player_post_type', 0 );
 
-/**
+/** JH
 * New excerpt text
 */
 
@@ -169,7 +169,7 @@ function new_excerpt_more( $more ) {
 }
 add_filter( 'excerpt_more', 'new_excerpt_more' );
 
-/**
+/** JH
  * Register `team` taxonomy
  */
 function team_taxonomy() {
@@ -206,6 +206,40 @@ function team_taxonomy() {
 add_action( 'init', 'team_taxonomy', 0 );
 
 add_action( 'wp_enqueue_scripts', 'test_theme_scripts' );
+
+/** JH
+ * Register `games` post type
+ */
+function game_post_type() {
+
+   // Labels
+	$labels = array(
+		'name' => _x("Games", "post type general name"),
+		'singular_name' => _x("Game", "post type singular name"),
+		'menu_name' => 'Games',
+		'add_new' => _x("Add New", "game item"),
+		'add_new_item' => __("Add Game"),
+		'edit_item' => __("Edit game details"),
+		'new_item' => __("New game"),
+		'view_item' => __("View game details"),
+		'search_items' => __("Search Profiles"),
+		'not_found' =>  __("No Games Found"),
+		'not_found_in_trash' => __("No Games Found in Trash"),
+		'parent_item_colon' => ''
+	);
+
+	// Register post type
+	register_post_type('Game' , array(
+		'labels' => $labels,
+		'public' => true,
+		'has_archive' => false,
+		'menu_icon' => get_stylesheet_directory_uri() . '/lib/TeamProfiles/team-icon.png',
+		'rewrite' => false,
+		'supports' => array('title', 'editor', 'thumbnail')
+	) );
+}
+add_action( 'init', 'game_post_type', 0 );
+
 
 /**
  * Implement the Custom Header feature.

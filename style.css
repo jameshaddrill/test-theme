@@ -977,6 +977,25 @@ a:visited {
 	color: #57a75c;
 }
 
+.btn {
+	display: block;
+	background-color: #57a75c;
+	color: #000;
+	cursor: pointer;
+	font-family: bebas_neuebold;
+	font-size: 1.4em;
+	padding: 8px 0;
+	text-align: center;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+
+.btn:hover {
+	background-color: #407943;
+	color: #000;
+}
+
 /** Columns **/
 .col {
 	-webkit-box-sizing: border-box;
@@ -987,11 +1006,15 @@ a:visited {
     width: 100%;
 }
 
+
 .xs-col-2 {
 	width: 50%;
 }
 
 @media (min-width: 480px) {
+	.sm-col-1 {
+		width: 8.3333%;
+	}
 	.sm-col-2 {
 		width: 16.6667%;
 	}
@@ -1000,6 +1023,9 @@ a:visited {
 	}
 	.sm-col-4 {
 		width: 33.3333%;
+	}
+	.sm-col-5 {
+		width: 41.6666%;
 	}
 	.sm-col-6 {
 		width: 50%;
@@ -1363,6 +1389,47 @@ article.article .date {
 	.player img {
 		max-width: 80%;
 	}
+}
+
+/** Game listings **/
+
+.game-listing .date {
+	background-color: #000;
+	color: #fff;
+	font-family: bebas_neuebold;
+	text-align: center;
+	padding: 10px;
+}
+
+	.game-listing .date .day {
+		display: block;
+		font-size: 3.5em;
+		line-height: 1em;
+		margin: 0;
+	}
+
+	.game-listing .date .month {
+		display: block;
+		font-size: 1em;
+		line-height: 1em;
+		margin: 0;
+	}
+
+.game-listing .gameType p {
+	font-family: bebas_neuebold;
+	font-size: 2em;
+	line-height: 1em;
+	margin-top: 0;
+}
+
+.game-listing .versus {
+	text-align: center;
+}
+
+.game-listing .team h2 {
+	text-align: center;
+	margin-top: 0;
+	line-height: 1em;
 }
 
 /** Footer **/
