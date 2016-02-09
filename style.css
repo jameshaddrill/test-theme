@@ -968,6 +968,10 @@ img {
 	width: 100%;
 }
 
+p, li {
+	font-family: 'Montserrat', sans-serif;
+}
+
 a {
 	color: #57a75c;
 	text-decoration: none;
@@ -1006,7 +1010,7 @@ a:visited {
     width: 100%;
 }
 
-.col .col:first-child {
+.col .col:first-of-type {
 	padding-left: 0;
 }
 
@@ -1037,6 +1041,9 @@ a:visited {
 	.sm-col-6 {
 		width: 50%;
 	}
+	.sm-col-7 {
+		width: 58.3333%;
+	}
 	.sm-col-8 {
 		width: 66.6667%;
 	}
@@ -1063,6 +1070,9 @@ a:visited {
 	}
 	.md-col-6 {
 		width: 50%;
+	}
+	.md-col-7 {
+		width: 58.3333%;
 	}
 	.md-col-8 {
 		width: 66.6667%;
@@ -1116,6 +1126,10 @@ a:visited {
 		text-indent: 0px;
 		line-height: 36px;
 		width: auto;
+	}
+
+	.socialLinks li a {
+		font-family: inherit;
 	}
 
 	.socialLinks li.facebook {
@@ -1198,6 +1212,15 @@ a:visited {
 	text-indent: -99999px;
 }
 
+#site-navigation li {
+	font-family: bebas_neuebold;
+	font-size: 1.2em;
+}
+
+#site-navigation .sub-menu li {
+	font-size: 1em !important;
+}
+
 @media(min-width: 480px) {
 	.menu-toggle {
 		position: absolute;
@@ -1212,7 +1235,7 @@ a:visited {
 	#site-navigation {
 		width: 100%;
 		font-family: bebas_neuebold;
-		font-size: 1.125em;
+
 		background-color: #ebebec;
 	}
 
@@ -1220,6 +1243,7 @@ a:visited {
 		width: 100%;
 		float: none;
 		margin-bottom: 10px;
+
 	}
 
 	#site-navigation #primary-menu > li:hover .sub-menu {
@@ -1239,6 +1263,7 @@ a:visited {
 	#site-navigation #primary-menu .sub-menu li {
 		width: 100%;
 	}
+
 }
 
 @media (min-width: 660px) {
@@ -1340,6 +1365,37 @@ a:visited {
 	}
 }
 
+/** Date block styles (used in multiple places) **/
+
+.dateBlock {
+	background-color: #000;
+	color: #fff;
+	font-family: bebas_neuebold;
+	text-align: center;
+	padding: 10px 15px !important;
+}
+
+	.dateBlock .day {
+		display: blockdateBlock;
+		font-size: 2.5em;
+		line-height: 1em;
+		margin: 0;
+	}
+
+	.dateBlock .month {
+		display: block;
+		font-size: 0.8em;
+		line-height: 1em;
+		margin: 0;
+	}
+
+@media (min-width: 920px) {
+	.dateBlock .day {
+		font-size: 3.5em;
+	}
+}
+
+
 /** Home page **/
 
 #homeHero {
@@ -1348,6 +1404,7 @@ a:visited {
 
 #homeLinks {
 	text-align: center;
+	margin-bottom: 35px;
 }
 
 #homeLinks h3 {
@@ -1367,8 +1424,79 @@ a:visited {
 
 @media (min-width: 480px) {
 	#homeLinks .circleImg {
-		max-width: 100%;
+		max-width: 150px;
 	}
+}
+
+	/* tabs */
+	#tabs {
+		margin-bottom: 35px;
+	}
+
+	#tabs ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+		#tabs ul li {
+			float: left;
+			padding: 8px 0;
+			border-right: 8px solid #fff;
+			text-align: center;
+			width: 33.33333%;
+			background-color: #ccc;
+			color: #000;
+			font-family: bebas_neueregular;
+			font-weight: bold;
+			font-size: 1.2em;
+		}
+
+		#tabs ul li:last-child {
+			border-right: none;
+		}
+
+		#tabs ul li.ui-state-active {
+			background-color: #eee;
+		}
+
+			#tabs ul li a {
+				color: inherit;
+			}
+
+	#tabs .ui-tabs-panel {
+		background-color: #eee;
+		margin: 0;
+		padding: 15px 25px;
+	}
+
+		#tabs .ui-tabs-panel p {
+			margin-top: 0;
+			font-size: 0.85em;
+		}
+
+.latestNews .media {
+	margin: 0;
+}
+
+.newsSnippet h3 {
+	color: #57a75c;
+	margin-top: 0;
+}
+
+.newsSnippet p {
+	font-size: 0.9em;
+}
+
+.latestGames p, .latestGames img {
+	text-align: center;
+}
+
+.latestGames img {
+	height: 75px;
+	width: auto;
+	margin: 0 auto;
+	display: block;
+
 }
 
 /** Listings pages **/
@@ -1381,10 +1509,19 @@ a:visited {
  	width: 100px;
  }
 
+ .listing .img {
+ 	width: 300px;
+ 	padding-right: 25px;
+ }
+
+ .listing p {
+ 	margin-top: 0;
+ }
+
 	/* ====== media ====== */
-	.media {margin:10px;}
+	.media {}
 	.media, .bd {overflow:hidden; _overflow:visible; zoom:1;}
-	.media .img {float:left; margin-right: 10px;}
+	.media .img, .media .dateBlock {float:left; margin-right: 10px;}
 	.media .img img{display:block;}
 	.media .imgExt{float:right; margin-left: 10px;}
 
@@ -1418,28 +1555,6 @@ article.article .date {
 
 /** Game listings **/
 
-.game-listing .date {
-	background-color: #000;
-	color: #fff;
-	font-family: bebas_neuebold;
-	text-align: center;
-	padding: 10px !important;
-}
-
-	.game-listing .date .day {
-		display: block;
-		font-size: 3.5em;
-		line-height: 1em;
-		margin: 0;
-	}
-
-	.game-listing .date .month {
-		display: block;
-		font-size: 1em;
-		line-height: 1em;
-		margin: 0;
-	}
-
 .game-listing .gameType p {
 	font-family: bebas_neuebold;
 	font-size: 1.5em;
@@ -1462,6 +1577,10 @@ article.article .date {
 .game-listing .team p.league {
 	color: #ccc;
 	margin-bottom: 8px;
+}
+
+.pastGames {
+	margin-bottom: 30px;
 }
 
 .past-game-listing {
@@ -1489,6 +1608,7 @@ article.article .date {
 .past-game-listing .photos a {
 	color: #000;
 }
+
 
 /** Footer **/
 footer {

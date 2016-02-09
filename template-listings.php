@@ -2,7 +2,7 @@
 /**
  * Template Name: Listings
  */
-//get_header();
+get_header();
 
 $slug = $post->post_name;
 
@@ -27,9 +27,20 @@ $args = array(
 			<?php
 			$latest_posts = new WP_Query( $args );
 			if( $latest_posts->have_posts() ) : while( $latest_posts->have_posts() ) : $latest_posts->the_post();  ?>
-				<article class="col">
+				<article class="col listing">
 					<h2><?php the_title() ?></h2>
-					<?php the_excerpt() ?>
+					<div class="media">
+						<div class="img">
+							<?php
+							$thumbnail = get_field('thumbnail');
+							if($thumbnail) { ?>
+								<img src="<?php echo $thumbnail ?>" />
+							<?php } ?>
+						</div>
+						<div class="bd">
+							<?php the_excerpt() ?>
+						</div>
+					</div>
 				</article>
 
 

@@ -1,6 +1,10 @@
 
 var init = function() {
 	mobileNavInit();
+
+	$('#tabs').tabs({
+		active: 0
+	});
 };
 
 $(window).load(init);

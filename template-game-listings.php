@@ -49,7 +49,7 @@ $old_args = array(
 				if( $latest_posts->have_posts() ) : while( $latest_posts->have_posts() ) : $latest_posts->the_post(); ?>
 
 					<article class="game-listing cf">
-						<div class="date col md-col-1">
+						<div class="dateBlock col md-col-1">
 							<?php $date = DateTime::createFromFormat('Ymd', get_field('date')); ?>
 							<span class="day"><?php echo $date->format('d'); ?></span>
 							<span class="month"><?php echo $date->format('F'); ?></span>
