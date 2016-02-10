@@ -67,7 +67,7 @@
 
 		<div id="mainNavCont" class="cf">
 			<nav id="site-navigation" class="main-navigation cf" role="navigation">
-					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'test-theme' ); ?></button>
+					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'test-theme' ); ?></button><p class="menuLabel sm-visible">Menu</p>
 					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 			</nav><!-- #site-navigation -->
 		</div>

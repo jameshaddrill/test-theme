@@ -49,12 +49,12 @@ $old_args = array(
 				if( $latest_posts->have_posts() ) : while( $latest_posts->have_posts() ) : $latest_posts->the_post(); ?>
 
 					<article class="game-listing cf">
-						<div class="dateBlock col md-col-1">
+						<div class="dateBlock col md-col-1 xs-col-4">
 							<?php $date = DateTime::createFromFormat('Ymd', get_field('date')); ?>
 							<span class="day"><?php echo $date->format('d'); ?></span>
 							<span class="month"><?php echo $date->format('F'); ?></span>
 						</div>
-						<div class="gameType col md-col-2">
+						<div class="gameType col md-col-2 xs-col-6">
 							<p><?php the_field('type') ?></p>
 						</div>
 						<div class="team home-team col md-col-3">
@@ -93,8 +93,8 @@ $old_args = array(
 						<div class="team home-team col sm-col-3">
 							<p class="homeName"><?php the_field('home_team_name') ?></p>
 						</div>
-						<div class="col sm-col-1">
-							<p><?php the_field('home_team_points') ?> : <?php the_field('away_team_points') ?></p>
+						<div class="col sm-col-1 score">
+							<p><span class="scoreValue"><?php the_field('home_team_points') ?></span> <span class="sm-hidden">:</span> <span class="scoreValue"><?php the_field('away_team_points') ?></span></p>
 
 						</div>
 						<div class="team away-team col sm-col-3">

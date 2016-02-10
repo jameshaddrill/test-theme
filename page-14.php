@@ -108,7 +108,7 @@ get_header();
 			<?php endwhile; endif; ?>
 		</section>
 
-		<section class="cf">
+		<section class="cf md-hidden col">
 			<?php while ( have_posts() ) : the_post(); ?>
 			<div id="tabs">
 			  <ul class="cf">
@@ -130,9 +130,28 @@ get_header();
 			<?php endwhile; // end of the loop. ?>
 		</section>
 
+		<section class="cf md-visible accordions col">
+			<?php while ( have_posts() ) : the_post(); ?>
+			<h2 class="active"><a href="#accordion1"><?php the_field('tab_one_header'); ?></a></h2>
+			<div id="accordion1" class="accordionContent">
+				<?php the_field('tab_one_content'); ?>
+			</div>
+			<h2><a href="#accordion2"><?php the_field('tab_two_header'); ?></a></h2>
+			<div id="accordion2" class="accordionContent">
+				<?php the_field('tab_two_content'); ?>
+			</div>
+			<h2><a href="#accordion3"><?php the_field('tab_three_header'); ?></a></h2>
+			<div id="accordion3" class="accordionContent">
+				<?php the_field('tab_three_content'); ?>
+			</div>
+
+
+			<?php endwhile; // end of the loop. ?>
+		</section>
+
 		<section class="cf">
 
-			<section class="col sm-col-7 latestNews">
+			<section class="col md-col-7 latestNews">
 				<h2>Latest News</h2>
 				<?php
 				$latest_posts = new WP_Query( $args_news );
@@ -150,13 +169,9 @@ get_header();
 
 								if($thumbnail) { ?>
 									<img src="<?php echo $thumbnail ?>" />
-								<?php } else {
-									echo 'empty';
-								}
+								<?php }
 
-								?>
-
-								<?php the_excerpt() ?>
+								the_excerpt() ?>
 							</div>
 						</div>
 					</article>
@@ -164,7 +179,7 @@ get_header();
 				<?php endwhile; endif; ?>
 			</section>
 
-			<section class="col sm-col-5 latestGames">
+			<section class="col md-col-5 latestGames">
 				<h2>Recent Games</h2>
 
 				<?php

@@ -1000,6 +1000,36 @@ a:visited {
 	color: #000;
 }
 
+
+.sm-hidden {
+	display: none;
+}
+
+.md-hidden {
+	display: none;
+}
+
+
+@media (min-width: 480px) {
+	.sm-hidden {
+		display: block;
+	}
+
+	.sm-visible {
+		display: none;
+	}
+}
+
+@media (min-width: 660px) {
+	.md-hidden {
+		display: block;
+	}
+
+	.md-visible {
+		display: none;
+	}
+}
+
 /** Columns **/
 .col {
 	-webkit-box-sizing: border-box;
@@ -1008,6 +1038,10 @@ a:visited {
     padding: 0 15px;
     float: left;
     width: 100%;
+}
+
+.col .col {
+	padding: 0;
 }
 
 .col .col:first-of-type {
@@ -1022,7 +1056,18 @@ a:visited {
 	width: 50%;
 }
 
+.xs-col-4 {
+	width: 25%;
+}
+
+.xs-col-6 {
+	width: 50%;
+}
+
 @media (min-width: 480px) {
+	.col .col {
+		padding: 0 15px;
+	}
 	.sm-col-1 {
 		width: 8.3333%;
 	}
@@ -1197,10 +1242,6 @@ a:visited {
 	position: relative;
 }
 
-#mainNavCont {
-	background-color: #ebebec;
-}
-
 .menu-toggle {
 	width: 30px;
 	height: 30px;
@@ -1210,6 +1251,15 @@ a:visited {
 	background-position: 0 0;
 	background-size: 30px 30px;
 	text-indent: -99999px;
+	float: left;
+	margin-right: 15px;
+}
+
+.menuLabel {
+	margin: 0;
+	line-height: 35px;
+	font-family: bebas_neuebold;
+	font-size: 1.5em;
 }
 
 #site-navigation li {
@@ -1221,6 +1271,11 @@ a:visited {
 	font-size: 1em !important;
 }
 
+#site-navigation .sub-menu li a:hover {
+	color: #666;
+}
+
+
 @media(min-width: 480px) {
 	.menu-toggle {
 		position: absolute;
@@ -1228,22 +1283,25 @@ a:visited {
 		top: 25px;
 		margin-left: 20px;
 	}
+
+
 }
 
 /* not pretty but this stops it clashing with the built-in menu styles */
 @media(max-width: 659px) {
+
+
 	#site-navigation {
 		width: 100%;
 		font-family: bebas_neuebold;
-
-		background-color: #ebebec;
 	}
 
 	#site-navigation #primary-menu > li {
 		width: 100%;
 		float: none;
-		margin-bottom: 10px;
-
+		margin-bottom: 3px;
+		background: #ebebec;
+		padding: 8px 15px;
 	}
 
 	#site-navigation #primary-menu > li:hover .sub-menu {
@@ -1255,18 +1313,35 @@ a:visited {
 		top: 0;
 		left: 0;
 		position: relative;
-		margin-left: 15px;
 		float: none;
 		display: none;
+		background-color: #ebebec;
+		box-shadow: none;
+	}
+
+	#site-navigation #primary-menu .sub-menu .sub-menu {
+		margin-bottom: 10px;
+	}
+
+	#site-navigation #primary-menu .sub-menu .sub-menu a {
+		color: #000;
 	}
 
 	#site-navigation #primary-menu .sub-menu li {
 		width: 100%;
+		padding: 5px 0 5px 15px;
+		float: none;
+		border-top: 2px #fff solid;
 	}
+
 
 }
 
 @media (min-width: 660px) {
+	#mainNavCont {
+		background-color: #ebebec;
+	}
+
 	#topSection {
 		margin-bottom: 30px;
 	}
@@ -1373,6 +1448,7 @@ a:visited {
 	font-family: bebas_neuebold;
 	text-align: center;
 	padding: 10px 15px !important;
+	margin-right: 15px;
 }
 
 	.dateBlock .day {
@@ -1388,6 +1464,12 @@ a:visited {
 		line-height: 1em;
 		margin: 0;
 	}
+
+@media (min-width: 660px) {
+	.dateBlock {
+		margin-right: 0;
+	}
+}
 
 @media (min-width: 920px) {
 	.dateBlock .day {
@@ -1474,6 +1556,12 @@ a:visited {
 			font-size: 0.85em;
 		}
 
+	@media (min-width: 650px) {
+		#tabs ul li {
+			font-size: 1em;
+		}
+	}
+
 .latestNews .media {
 	margin: 0;
 }
@@ -1556,14 +1644,28 @@ article.article .date {
 /** Game listings **/
 
 .game-listing .gameType p {
+	float: left;
+	line-height: 75px;
 	font-family: bebas_neuebold;
 	font-size: 1.5em;
-	line-height: 1em;
+	/*line-height: 1em;*/
 	margin-top: 0;
 }
 
 .game-listing .versus {
 	text-align: center;
+	font-family: bebas_neuebold;
+	font-size: 3em;
+	margin-top: 25px;
+}
+
+.game-listing .team {
+	text-align: center;
+}
+
+.game-listing .team img {
+	max-height: 100px;
+	width: auto;
 }
 
 .game-listing .team p {
@@ -1579,6 +1681,10 @@ article.article .date {
 	margin-bottom: 8px;
 }
 
+.game-listing .tickets {
+	margin-top: 40px;
+}
+
 .pastGames {
 	margin-bottom: 30px;
 }
@@ -1586,6 +1692,10 @@ article.article .date {
 .past-game-listing {
 	padding: 20px 0;
 	border-bottom: 1px solid black;
+}
+
+.past-game-listing .col {
+	padding: 0 !important;
 }
 
 .past-game-listing p, .past-game-listing .date {
@@ -1596,17 +1706,60 @@ article.article .date {
 	margin: 0;
 }
 
-.past-game-listing .homeName {
-	float: right;
-	padding-right:15px;
+.past-game-listing .home-team {
+	margin-top: 20px;
 }
 
-.past-game-listing .awayName {
-	padding-left:15px;
+.past-game-listing .away-team {
+	margin-bottom: 10px;
+}
+
+.past-game-listing .team p {
+	text-align: center;
+	font-size: 1.1em;
+}
+
+.past-game-listing .score {
+	text-align: center;
+}
+	.past-game-listing .score span.scoreValue {
+		display: block;
+	}
+
+.past-game-listing .photos {
+	text-align: center;
 }
 
 .past-game-listing .photos a {
 	color: #000;
+}
+
+@media (min-width: 660px) {
+	.past-game-listing .homeName {
+		float: right;
+	}
+
+	.past-game-listing .score span {
+		display: inline !important;
+		text-align: left;
+	}
+
+	.past-game-listing .home-team, .past-game-listing .away-team {
+		margin: 0;
+	}
+
+	.past-game-listing .homeName {
+		padding-right:15px;
+	}
+
+	.past-game-listing .awayName {
+		padding-left:15px;
+	}
+
+	.past-game-listing .team p {
+		text-align: left;
+		font-size: 0.8em;
+	}
 }
 
 
