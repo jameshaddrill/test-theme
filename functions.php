@@ -153,7 +153,7 @@ function player_post_type() {
 		'labels' => $labels,
 		'public' => true,
 		'has_archive' => false,
-		'menu_icon' => get_stylesheet_directory_uri() . '/lib/TeamProfiles/team-icon.png',
+		'menu_icon' => 'dashicons-id-alt',
 		'rewrite' => false,
 		'supports' => array('title', 'editor', 'thumbnail')
 	) );
@@ -233,7 +233,7 @@ function game_post_type() {
 		'labels' => $labels,
 		'public' => true,
 		'has_archive' => false,
-		'menu_icon' => get_stylesheet_directory_uri() . '/lib/TeamProfiles/team-icon.png',
+		'menu_icon' => 'dashicons-universal-access-alt',
 		'rewrite' => false,
 		'supports' => array('title', 'editor', 'thumbnail')
 	) );
