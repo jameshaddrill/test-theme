@@ -51,10 +51,13 @@ html {
 	font-family: sans-serif;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust:     100%;
+	min-height: 100%;
+	position: relative;
 }
 
 body {
 	margin: 0;
+	height: 100%:
 }
 
 article,
@@ -1132,6 +1135,41 @@ a:visited {
 	border-radius: 50%;
 }
 
+/** Home banner **/
+#home-banner {
+	background-image: url(img/homeBanner.jpg);
+	background-size: cover;
+	background-position: center top;
+	width: 100%;
+	height: 100vh;
+	text-align: center;
+}
+
+#home-banner .home-banner-content {
+	padding-top: 300px;
+}
+
+#home-banner .arrg-logo {
+	max-width: 60%;
+	height: auto;
+	max-height: 300px;
+	width: auto;
+}
+
+#home-banner .home-banner-text {
+	background: #000;
+}
+
+#home-banner .home-banner-text p {
+	color: #fff;
+	font-family: bebas_neuebold;
+	font-size: 2em;
+}
+
+#home-banner .down-arrow {
+	max-width: 50px;
+}
+
 /** Header **/
 #siteLogo {
 	display: block;
@@ -1566,6 +1604,10 @@ a:visited {
 	margin: 0;
 }
 
+.newsSnippet {
+	margin-bottom: 20px;
+}
+
 .newsSnippet h3 {
 	color: #57a75c;
 	margin-top: 0;
@@ -1573,6 +1615,11 @@ a:visited {
 
 .newsSnippet p {
 	font-size: 0.9em;
+	margin-bottom: 1em;
+}
+
+.latestGames {
+	margin-bottom: 20px;
 }
 
 .latestGames p, .latestGames img {
@@ -1608,10 +1655,16 @@ a:visited {
 
 	/* ====== media ====== */
 	.media {}
-	.media, .bd {overflow:hidden; _overflow:visible; zoom:1;}
+	.media, .bd {overflow:visible; _overflow:visible; zoom:1;}
 	.media .img, .media .dateBlock {float:left; margin-right: 10px;}
+	.media .img { margin-bottom: 20px; }
 	.media .img img{display:block;}
 	.media .imgExt{float:right; margin-left: 10px;}
+
+	@media(min-width: 769px) {
+		.media, .bd {overflow:hidden;}
+		.media .img { margin-bottom: 0; }
+	}
 
 
 /** Article pages **/

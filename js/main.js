@@ -1,7 +1,6 @@
 
 var init = function() {
 	mobileNavInit();
-
 	$('#tabs').tabs({
 		active: 0
 	});
@@ -17,6 +16,9 @@ $(window).on('resize', function(e) {
   	resizeTimer = setTimeout(function() {
     	mobileNavInit();
   	}, 250);
+
+	$('#home-banner').css("background-size", 'cover');
+
 });
 
 var mobileNavInit = function() {

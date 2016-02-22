@@ -10,7 +10,7 @@
 $today = date('Ymd');
 
 $args_news = array(
-    'showposts' => 2,
+    'showposts' => 4,
     'post_type' => 'post',
     'category_name' => 'news',
 );
@@ -19,9 +19,9 @@ $args_games = array(
     'showposts' => 2,
     'post_type' => 'game',
 
-);
+); ?>
 
-get_header();
+<?php get_header();
 ?>
 
 <div id="primary" class="content-area">
@@ -181,24 +181,42 @@ get_header();
 
 			<section class="col md-col-5 latestGames">
 				<h2>Recent Games</h2>
+				<div class="cf">
+					<?php
+					$latest_posts = new WP_Query( $gameArgs );
+					$today = date('Ymd');
 
-				<?php
-				$latest_posts = new WP_Query( $args_games );
-				if( $latest_posts->have_posts() ) : while( $latest_posts->have_posts() ) : $latest_posts->the_post();  ?>
-				<?php $date = DateTime::createFromFormat('Ymd', get_field('date')); ?>
-				<h3><?php echo $date->format('d F'); ?></h3>
+					$old_args = array(
+						'showposts' => -1,
+					    'post_type' => 'game',
+					    'meta_query' => array(
+							array(
+						        'key'		=> 'date',
+						        'compare'	=> '<=',
+						        'value'		=> $today,
+						    )
+						)
+					);
 
-				<div>
-					<div class="col sm-col-6">
-						<img src="<?php the_field('home_team_logo') ?>" />
-						<p><?php the_field('home_team_points') ?></span></p>
+					$old_posts = new WP_Query( $old_args );
+					if( $old_posts->have_posts() ) : while( $old_posts->have_posts() ) : $old_posts->the_post();
+					$date = DateTime::createFromFormat('Ymd', get_field('date')); ?>
+					<h3><?php echo $date->format('d F'); ?></h3>
+
+					<div>
+						<div class="col sm-col-6">
+							<img src="<?php the_field('home_team_logo') ?>" />
+							<p><?php the_field('home_team_points') ?></span></p>
+						</div>
+						<div class="col sm-col-6">
+							<img src="<?php the_field('away_team_logo') ?>" />
+							<p><?php the_field('away_team_points') ?></p>
+						</div>
 					</div>
-					<div class="col sm-col-6">
-						<img src="<?php the_field('away_team_logo') ?>" />
-						<p><?php the_field('away_team_points') ?></p>
-					</div>
+					<?php endwhile; endif; ?>
 				</div>
-				<?php endwhile; endif; ?>
+
+				<a class="btn">Click here for upcoming games</a>
 			</section>
 
 		</section>

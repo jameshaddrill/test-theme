@@ -9,7 +9,9 @@
  * @package Test_theme
  */
 
-?><!DOCTYPE html>
+?>
+
+<!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
@@ -26,6 +28,21 @@
 <body <?php body_class(); ?>>
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'test-theme' ); ?></a>
+
+	<?php if (is_front_page()) : ?>
+		<section id="home-banner">
+			<div class="home-banner-content">
+				<a href="#">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/arrg-logo.png" class="arrg-logo" alt="Auld Reekie Roller Girls" />
+					<div class="home-banner-text">
+						<p>Go to main menu</p>
+					</div>
+					<img src="<?php echo get_template_directory_uri(); ?>/img/general/downArrow.png" class="down-arrow" />
+				</a>
+			</div>
+		</section>
+	<?php endif; ?>
+
 	<div id="topSection">
 		<header id="masthead" class="site-header" role="banner">
 			<div class="site-branding col sm-col-3">

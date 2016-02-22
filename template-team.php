@@ -32,7 +32,7 @@ $args = array(
 			$latest_posts = new WP_Query( $args );
 			if( $latest_posts->have_posts() ) : while( $latest_posts->have_posts() ) : $latest_posts->the_post();  ?>
 				<div class="sm-col-3 xs-col-2 col player">
-					<img src="<?php the_field('headshot'); ?>" class="circleImg" alt="Headshot for <?php the_field('name'); ?>" />
+					<img src="<?php the_field('headshot'); ?>" alt="Headshot for <?php the_field('name'); ?>" />
 					<p><?php the_field('name'); ?><br />
 					<small>#<?php the_field('number'); ?></small></p>
 				</div>
